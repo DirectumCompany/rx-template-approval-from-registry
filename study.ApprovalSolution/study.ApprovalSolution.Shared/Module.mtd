@@ -1,0 +1,67 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "56a521db-874a-4d2b-89e5-f7f4f65a8562",
+  "Name": "ApprovalSolution",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "study.ApprovalSolution.Client",
+  "ClientBaseAssemblyName": "study.ApprovalSolution.ClientBase",
+  "ClientBaseNamespace": "study.ApprovalSolution.ClientBase",
+  "ClientNamespace": "study.ApprovalSolution.Client",
+  "Code": "Approva",
+  "CompanyCode": "study",
+  "Cover": {
+    "NameGuid": "6d63ffe7-2aec-4dcb-a1b5-8500c6235db9",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "238a7539-b328-4b33-8ff8-bc0320ac2162",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "a7a80ee7-e282-44a8-ad47-4714ee44a874",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "1df3e067-deaa-4bd3-932e-6dec191f735a"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "study.ApprovalSolution",
+  "IsolatedAssemblyName": "study.ApprovalSolution.Isolated",
+  "IsolatedNamespace": "study.ApprovalSolution.Isolated",
+  "IsVisible": false,
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "study.ApprovalSolution",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "study.ApprovalSolution.Server",
+  "ServerNamespace": "study.ApprovalSolution.Server",
+  "SharedAssemblyName": "study.ApprovalSolution.Shared",
+  "SharedNamespace": "study.ApprovalSolution.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}
