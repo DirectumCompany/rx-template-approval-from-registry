@@ -372,8 +372,8 @@
     {
       "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
       "NameGuid": "d9c339fd-64e1-4ecd-a744-a664b433cc4f",
-      "Name": "Responsible",
-      "Code": "Responsible",
+      "Name": "ResponsibleDirRX",
+      "Code": "ResponsibleDir",
       "EntityGuid": "b7905516-2be5-4931-961c-cb38d5677565",
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
       "PreviousPropertyGuid": "7cb63a2c-f8d9-422a-b223-63d70915e059"

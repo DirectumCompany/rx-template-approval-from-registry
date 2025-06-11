@@ -157,4 +157,7 @@
   <data name="Property_TaskParticipants" xml:space="preserve">
     <value>Исполнители задачи</value>
   </data>
+  <data name="Property_ResponsibleDirRX" xml:space="preserve">
+    <value>Ответственный</value>
+  </data>
 </root>
