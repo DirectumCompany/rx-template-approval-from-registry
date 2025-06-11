@@ -15,11 +15,11 @@ namespace study.ApprovalSolution.Server
     /// </summary>
     public virtual void SetOnApproval()
     {
-      if (_obj.Responsible == null)
-        _obj.Responsible = Sungero.Company.Employees.Current;
+      if (_obj.ResponsibleDirRX == null)
+        _obj.ResponsibleDirRX = Sungero.Company.Employees.Current;
       
       //Если ответственный-руководитель, добавляем доп. согласующих в список исполнителей. Иначе добавляем руководителя ответственного.
-      if (Sungero.Company.PublicFunctions.Employee.IsManager(_obj.Responsible))
+      if (Sungero.Company.PublicFunctions.Employee.IsManager(_obj.ResponsibleDirRX))
       {
         SetApprovedManager();
       }
@@ -27,7 +27,7 @@ namespace study.ApprovalSolution.Server
       {
         _obj.JobDate = Calendar.Now.AddWorkingDays(1);
         _obj.InternalApprovalState = InternalApprovalState.ApproveBoss;
-        var manager = _obj.Responsible.Department.Manager;
+        var manager = _obj.ResponsibleDirRX.Department.Manager;
         
         if (manager != null)
           _obj.TaskParticipants.AddNew().Executor = manager;
@@ -80,7 +80,7 @@ namespace study.ApprovalSolution.Server
       _obj.TaskParticipants.Clear();
       _obj.InternalApprovalState = InternalApprovalState.OnRework;
       _obj.JobDate = Calendar.Now.AddWorkingDays(1);
-      _obj.TaskParticipants.AddNew().Executor = _obj.Responsible;
+      _obj.TaskParticipants.AddNew().Executor = _obj.ResponsibleDirRX;
       _obj.Save();
       
     }
