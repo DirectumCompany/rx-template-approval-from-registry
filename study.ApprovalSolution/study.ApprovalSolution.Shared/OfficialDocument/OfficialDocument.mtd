@@ -266,6 +266,7 @@
       "PreviousInplaceFormGuid": "30d15053-0c64-40f2-89b8-b68c0c9fd574"
     }
   ],
+  "FormViewUuid": "88bff173-417b-4b56-8110-ec80d0476878",
   "HandledEvents": [
     "BeforeSaveServer"
   ],
