@@ -31,7 +31,6 @@
       "ItemId": "1df3e067-deaa-4bd3-932e-6dec191f735a"
     }
   ],
-  "IconResourcesKeys": [],
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "study.ApprovalSolution",
@@ -42,7 +41,6 @@
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "study.ApprovalSolution",
-  "ResourcesKeys": [],
   "ServerAssemblyName": "study.ApprovalSolution.Server",
   "ServerNamespace": "study.ApprovalSolution.Server",
   "SharedAssemblyName": "study.ApprovalSolution.Shared",
@@ -53,11 +51,11 @@
   "Versions": [
     {
       "Type": "SolutionMetadata",
-      "Number": 9
+      "Number": 11
     },
     {
       "Type": "ModuleMetadata",
-      "Number": 9
+      "Number": 11
     },
     {
       "Type": "DomainApi",

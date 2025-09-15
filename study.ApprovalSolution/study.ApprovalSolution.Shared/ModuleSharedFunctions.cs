@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace study.ApprovalSolution.Shared
 {
-  public class ModuleFunctions
+  public partial class ModuleFunctions
   {
 
   }

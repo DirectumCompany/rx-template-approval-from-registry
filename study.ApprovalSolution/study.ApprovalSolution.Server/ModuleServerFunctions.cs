@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace study.ApprovalSolution.Server
 {
-  public class ModuleFunctions
+  public partial class ModuleFunctions
   {
 
   }
