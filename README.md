@@ -31,7 +31,7 @@
       repository:
       -   '@folderName': 'work'
           '@solutionType': 'Work'
-          '@url': https://github.com/DirectumCompany/rx-template-approval-from-registry'
+          '@url': https://github.com/DirectumCompany/rx-template-approval-from-registry.git'
       -   '@folderName': 'base'
           '@solutionType': 'Base'
           '@url': ''
@@ -50,7 +50,7 @@
       repository:
       -   '@folderName': 'work'
           '@solutionType': 'Work'
-          '@url': https://github.com/DirectumCompany/rx-template-approval-from-registry'
+          '@url': https://github.com/DirectumCompany/rx-template-approval-from-registry.git'
       -   '@folderName': 'base'
           '@solutionType': 'Base'
           '@url': ''
@@ -72,7 +72,7 @@
           '@url': ''
       -   '@folderName': 'base'
           '@solutionType': 'Base'
-          '@url': 'https://github.com/DirectumCompany/rx-template-approval-from-registry'
+          '@url': 'https://github.com/DirectumCompany/rx-template-approval-from-registry.git'
 ```
 
 **C. Копирование репозитория в систему контроля версий.**
