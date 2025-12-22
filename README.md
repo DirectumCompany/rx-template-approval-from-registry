@@ -67,7 +67,7 @@
       -   '@folderName': 'work'
           '@solutionType': 'Work'
           '@url': '<Адрес репозитория для рабочего слоя>'
--   '@folderName': 'base'
+      -   '@folderName': 'base'
           '@solutionType': 'Base'
           '@url': ''
       -   '@folderName': 'base'
