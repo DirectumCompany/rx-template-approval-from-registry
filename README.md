@@ -24,13 +24,17 @@
 
 ## Установка для ознакомления
 1. Склонировать репозиторий с rx-template-approval-from-registry в папку.
-2. Указать в _ConfigSettings.xml DDS:
+2. Указать в config.yml в разделе DevelopmentStudio:
 ```xml
-<block name="REPOSITORIES">
-  <repository folderName="Base" solutionType="Base" url="" /> 
-  <repository folderName="<Папка из п.1>" solutionType="Work" 
-     url="https://github.com/DirectumCompany/rx-template-approval-from-registry" />
-</block>
+   GIT_ROOT_DIRECTORY: '<Папка из п.1>'
+   REPOSITORIES:
+      repository:
+      -   '@folderName': 'work'
+          '@solutionType': 'Work'
+          '@url': https://github.com/DirectumCompany/rx-template-approval-from-registry.git'
+      -   '@folderName': 'base'
+          '@solutionType': 'Base'
+          '@url': ''
 ```
 
 ## Установка для использования на проекте
@@ -39,27 +43,36 @@
 **A. Fork репозитория**
 1. Сделать fork репозитория rx-template-approval-from-registry для своей учетной записи.
 2. Склонировать созданный в п. 1 репозиторий в папку.
-3. Указать в _ConfigSettings.xml DDS:
+3. Указать в config.yml в разделе DevelopmentStudio:
 ```xml
-<block name="REPOSITORIES">
-  <repository folderName="Base" solutionType="Base" url="" /> 
-  <repository folderName="<Папка из п.2>" solutionType="Work" 
-     url="https://github.com/DirectumCompany/rx-template-approval-from-registry" />
-</block>
+   GIT_ROOT_DIRECTORY: '<Папка из п.2>'
+   REPOSITORIES:
+      repository:
+      -   '@folderName': 'work'
+          '@solutionType': 'Work'
+          '@url': https://github.com/DirectumCompany/rx-template-approval-from-registry.git'
+      -   '@folderName': 'base'
+          '@solutionType': 'Base'
+          '@url': ''
 ```
 
 **B. Подключение на базовый слой.**
 Вариант не рекомендуется, так как при выходе версии шаблона разработки не гарантируется обратная совместимость.
 1. Склонировать репозиторий rx-template-approval-from-registry в папку.
-2. Указать в _ConfigSettings.xml DDS:
+2. Указать в config.yml в разделе DevelopmentStudio:
 ```xml
-<block name="REPOSITORIES">
-  <repository folderName="Base" solutionType="Base" url="" /> 
-  <repository folderName="<Папка из п.1>" solutionType="Base" 
-     url="<Адрес репозитория gitHub>" />
-  <repository folderName="<Папка для рабочего слоя>" solutionType="Work" 
-     url="<Адрес репозитория для рабочего слоя>" />
-</block>
+   GIT_ROOT_DIRECTORY: '<Папка из п.1>'
+   REPOSITORIES:
+      repository:
+      -   '@folderName': 'work'
+          '@solutionType': 'Work'
+          '@url': '<Адрес репозитория для рабочего слоя>'
+      -   '@folderName': 'base'
+          '@solutionType': 'Base'
+          '@url': ''
+      -   '@folderName': 'base'
+          '@solutionType': 'Base'
+          '@url': 'https://github.com/DirectumCompany/rx-template-approval-from-registry.git'
 ```
 
 **C. Копирование репозитория в систему контроля версий.**
