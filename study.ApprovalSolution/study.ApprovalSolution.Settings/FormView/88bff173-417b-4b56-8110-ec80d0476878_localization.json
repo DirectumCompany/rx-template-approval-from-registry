@@ -1,0 +1,19 @@
+{
+  "ControlGroup1_Caption_16649b85e9d84ac6912c6239922b0b99": {
+    "en-US": "Переписка"
+  },
+  "Description": {},
+  "Name": {
+    "en-US": "Official Document",
+    "ru-RU": "Официальный документ"
+  },
+  "Task_Title_bb7543d4295d4bf7bf3cc89fbdc86ecc": {
+    "en-US": "Согласование"
+  },
+  "TaskGroup_Caption_4939d6ff1b0040a586c413373c9906d8": {
+    "en-US": "Согласование"
+  },
+  "TaskGroup_Caption_4939d6ff1b0040a586c413373c9906f2": {
+    "en-US": "Согласование"
+  }
+}

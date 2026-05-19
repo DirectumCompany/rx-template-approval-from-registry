@@ -347,7 +347,6 @@
       "Code": "JobDate",
       "DateTimeFormat": "DateTime",
       "IsEnabled": false,
-      "IsLoadEagerly": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
       "PreviousPropertyGuid": "90dd9ad0-f755-4dbf-bfa6-8043082385ce"
     },
@@ -540,7 +539,7 @@
     },
     {
       "Type": "EntityMetadata",
-      "Number": 13
+      "Number": 14
     }
   ]
 }
