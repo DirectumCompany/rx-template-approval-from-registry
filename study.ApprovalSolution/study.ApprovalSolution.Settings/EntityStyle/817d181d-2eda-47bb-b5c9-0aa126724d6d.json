@@ -1,0 +1,48 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "EntityType": "58cca102-1e97-4f07-b6ac-fd866a8b7cb1",
+  "LayeredEntityType": "1df3e067-deaa-4bd3-932e-6dec191f735a",
+  "Priority": 1,
+  "StyleSelectors": {
+    "$type": "Sungero.NoCode.Settings.Interfaces.Models.EntityStyle.EntityStyleSettings, Sungero.NoCode.Settings.Interfaces",
+    "StyleDifferences": {
+      "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.EntityStyle.StyleSelector, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.EntityStyle.StyleSelector, Sungero.NoCode.Settings.Interfaces",
+          "Name": "ApprovalStyle",
+          "NameGuid": "b78295d2-cf6e-40ff-b642-fa7f2cc5ae42",
+          "ApplicationArea": "Entity",
+          "PropertyGuid": null,
+          "Color": "HighImportanceTextBrush",
+          "IsBold": true,
+          "IsItalic": false,
+          "IsStrikethrough": false,
+          "Conditions": {
+            "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.EntityStyle.StyleCondition, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+            "$values": [
+              {
+                "$type": "Sungero.NoCode.Settings.Interfaces.Models.EntityStyle.StyleCondition, Sungero.NoCode.Settings.Interfaces",
+                "Uuid": "3fcb05ac-48d3-4517-a455-3670c77b5035",
+                "PropertyGuid": "aa4ee683-8c1b-46f8-a051-832cacd71d15",
+                "ComparisonType": "Greater",
+                "ConditionValue": "Today"
+              }
+            ]
+          },
+          "PreviousGuid": "bc116f9e-cef6-4dac-a125-dd6062897e9e",
+          "IsDomainLayer": false,
+          "IsAncestorSettings": false,
+          "OverriddenFields": {
+            "$type": "System.Collections.ObjectModel.Collection`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "$values": []
+          }
+        }
+      ]
+    }
+  },
+  "Uuid": "817d181d-2eda-47bb-b5c9-0aa126724d6d",
+  "ModuleNameGuid": "56a521db-874a-4d2b-89e5-f7f4f65a8562",
+  "StoreAsDefaultSetting": true,
+  "Status": "Active"
+}
